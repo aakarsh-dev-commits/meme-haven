@@ -39,7 +39,8 @@ header ul {
   list-style: none;
   justify-content: space-evenly;
 }
-
-.ribbon-text {
-  text-align: justify;
+.ribbon ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
