@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+}
+
+.content {
+  flex-grow: 1;
+}
