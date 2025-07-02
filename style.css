@@ -40,6 +40,7 @@ header ul {
   display: flex;
   list-style: none;
   justify-content: space-between;
+  padding: 0;
 }
 .ribbon ul li {
   display: flex;
@@ -50,4 +51,22 @@ header ul {
 .quotes {
   display: flex;
   flex-direction: column;
+}
+
+.sign-up {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.sign-up ul {
+  list-style: none;
+}
+
+.sign-up button {
+  padding: 8px 40px;
+}
+
+footer {
+  text-align: center;
 }
