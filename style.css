@@ -27,14 +27,14 @@ header ul {
 
 .content {
   flex-grow: 1;
-  width: 80%;
-  margin: 0 auto;
 }
 
 .content-top {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   gap: 100px;
+  background-color: #1f2937;
+  margin: 0 auto;
 }
 
 .top-left {
