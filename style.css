@@ -43,6 +43,24 @@ header ul {
   width: 500px;
 }
 
+.heading h1 {
+  margin: 0;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.redesign {
+  align-self: flex-end;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .top-left h1 {
   color: #f9faf8;
   font-size: 48px;
