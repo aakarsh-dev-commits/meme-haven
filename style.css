@@ -59,6 +59,7 @@ header ul {
   border-radius: 8px;
   color: #e5e7eb;
   background-color: #1864ab;
+  border: 1px solid #e5e7eb;
 }
 
 .btn-1:hover {
@@ -129,16 +130,28 @@ header ul {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  width: 65%;
+  margin: 100px auto;
+  padding: 30px 0;
+  background-color: #3882f6;
+  border-radius: 5px;
 }
 
 .sign-up ul {
   list-style: none;
+  color: #e5e7eb;
 }
 
 .sign-up button {
   padding: 8px 40px;
+  background-color: #3882f6;
+  border: 1px solid white;
+  color: white;
+  border-radius: 5px;
 }
 
 footer {
   text-align: center;
+  background-color: #1f2937;
+  color: #e5e7eb;
 }
