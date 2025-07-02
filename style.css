@@ -6,7 +6,7 @@ body {
 
 header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -28,4 +28,18 @@ header ul {
 
 .top-left {
   width: 500px;
+}
+
+.ribbon {
+  margin-top: 100px;
+}
+
+.ribbon ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+.ribbon-text {
+  text-align: justify;
 }
