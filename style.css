@@ -1,6 +1,7 @@
 body {
   display: flex;
   flex-direction: column;
+  gap: 30px;
 }
 
 header {
@@ -17,4 +18,14 @@ header ul {
 
 .content {
   flex-grow: 1;
+}
+
+.content-top {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.top-left {
+  width: 500px;
 }
