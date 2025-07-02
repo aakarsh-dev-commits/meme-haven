@@ -73,12 +73,24 @@ header ul {
 
 .ribbon {
   margin-top: 100px;
+  text-align: center;
+}
+
+.ribbon h1 {
+  padding-bottom: 40px;
+  font-size: 58px;
+  color: #1f2937;
+}
+
+.ribbon img {
+  border: 2px solid #fcc419;
+  border-radius: 5px;
 }
 
 .ribbon ul {
   display: flex;
   list-style: none;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 0;
 }
 .ribbon ul li {
