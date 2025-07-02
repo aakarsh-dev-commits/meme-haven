@@ -74,6 +74,7 @@ header ul {
 .ribbon {
   margin-top: 100px;
   text-align: center;
+  padding-bottom: 100px;
 }
 
 .ribbon h1 {
@@ -100,8 +101,10 @@ header ul {
 }
 
 .quotes {
-  display: flex;
-  flex-direction: column;
+  font-size: 32px;
+  width: 750px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .sign-up {
